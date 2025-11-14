@@ -415,6 +415,8 @@ nav ul li a:hover {
         /* Responsividade */
 /* Responsividade */
 /* REMOVA esta seção duplicada e mantenha apenas UMA: */
+/* CORREÇÕES PARA MOBILE */
+/* RESPONSIVIDADE - APENAS CORREÇÕES NECESSÁRIAS */
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2.2rem;
@@ -505,6 +507,50 @@ nav ul li a:hover {
     .logo-img {
         height: 50px;
     }
+
+    /* CORREÇÕES ESPECÍFICAS - APENAS O NECESSÁRIO */
+    
+    /* Computador Quântico - apenas ajuste de grid */
+    .computer-content {
+        grid-template-columns: 1fr !important;
+        gap: 30px !important;
+    }
+    
+    /* Sobre - apenas ajuste de grid */
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    /* Serviços - apenas ajuste de grid */
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    /* Equipe - apenas ajuste de grid */
+    .team-grid {
+        grid-template-columns: 1fr !important;
+        gap: 25px;
+    }
+    
+    /* Workshops - apenas ajuste de grid */
+    .workshops-grid {
+        grid-template-columns: 1fr !important;
+        gap: 25px;
+    }
+    
+    /* Aplicações - apenas ajuste de grid */
+    .apps-grid {
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+    }
+    
+    /* Contato - apenas ajuste de grid */
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -533,6 +579,15 @@ nav ul li a:hover {
     
     .logo-text {
         font-size: 1.3rem;
+    }
+    
+    /* Ajustes menores para mobile muito pequeno */
+    .service-card {
+        padding: 25px 20px;
+    }
+    
+    .app-card {
+        padding: 20px !important;
     }
 }
     </style>
